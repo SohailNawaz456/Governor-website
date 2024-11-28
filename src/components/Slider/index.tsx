@@ -16,7 +16,7 @@ import Image8 from "../../../public/slideShow8.jpg";
      
 export default class ImagesCaurosel extends Component {
   render(): ReactNode {
-    let data = [
+const data = [
       { img: Image1, title: "Students learning web3 basics." },
       { img: Image2, title: "President launching the PIAIC website." },
       { img: Image3, title: "President launching the PIAIC website." },
